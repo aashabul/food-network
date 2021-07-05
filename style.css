@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* .container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+} */
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+.half-width{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+/* nav */
+nav{
+    display: flex;
+    width: 100%;
+    background-color: #C58882;
+}
+
+/* nav left class */
+.left img{
+    width: 10%;
+    height: 100%;
+}
+
+.right img{
+    width: 20%;
+}
+
+.call-me{
+    display: flex;
+    align-items: center;
+    
+}
+
+nav span{
+    font-size: 20px;
+    font-weight: 600;
+    float: left;
+}
+
+.center{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
