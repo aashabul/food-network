@@ -47,7 +47,7 @@ nav{
 }
 
 nav span{
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: 600;
     float: left;
 }
@@ -56,6 +56,7 @@ nav span{
     width: 80%;
     display: flex;
     margin: auto;
+    align-items: center;
 }
 
 .photo-area img{
@@ -74,7 +75,7 @@ nav span{
 
 .welcome-area{
     width: 90%;
-    margin: 50px auto;
+    margin: 50px auto 150px auto;
     display: flex;
     align-items: center;
     gap: 40px;
@@ -86,4 +87,9 @@ nav span{
     border-radius: 10px;
     color: black;
     font-weight: 600;
+    margin-top: 20px;
+}
+
+.about-me{
+    background-image: url(images/chef-bg.png);
 }
