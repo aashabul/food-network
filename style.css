@@ -1,19 +1,20 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
-/* .container{
-    width: 90%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    align-content: center;
-} */
+p{
+    font-family: 'Roboto Slab', serif;
+}
 
 ul{
     list-style: none;
     display: flex;
+}
+
+a{
+    text-decoration: none;
 }
 
 .half-width{
@@ -26,12 +27,12 @@ ul{
 nav{
     display: flex;
     width: 100%;
-    background-color: #C58882;
+    background-color: #FC8F49;
 }
 
 /* nav left class */
 .left img{
-    width: 10%;
+    width: 7%;
     height: 100%;
 }
 
@@ -55,4 +56,34 @@ nav span{
     width: 80%;
     display: flex;
     margin: auto;
+}
+
+.photo-area img{
+    width: 80%;
+    margin: auto;
+}
+
+.welcome-area{
+    width: 100%;
+}
+
+.text-area{
+    flex-direction: column;
+    text-align: center;
+}
+
+.welcome-area{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.link-button{
+    background-image: linear-gradient(orange, #FE4D2F);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
 }
