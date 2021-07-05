@@ -134,5 +134,49 @@ nav span{
 .map{
     text-align: center;
     width: 100%;
-    margin: 50px auto 100px;
+    margin: 50px auto 200px;
+}
+
+.big-font{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.small-font{
+    font-size: 1rem;
+}
+
+.medium-font{
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+.semi-big-font{
+    font-size: 1.5rem;
+}
+
+.review{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 30px grey;
+    border-radius: 20px;
+    padding: 40px 0;
+    margin-bottom: 150px;
+}
+
+.review-item{
+    width: 100%;
+}
+
+footer{
+    background-color: #FC8F49;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.white{
+    color: white;
 }
