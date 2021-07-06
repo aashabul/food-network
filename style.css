@@ -123,36 +123,10 @@ nav span{
     margin: 150px auto 200px;
 }
 
-.orange{
-    color: #FC8143;
-}
-
-.tomato{
-    color: #FE492E;
-}
-
 .map{
     text-align: center;
     width: 100%;
     margin: 50px auto 200px;
-}
-
-.big-font{
-    font-size: 2rem;
-    font-weight: 700;
-}
-
-.small-font{
-    font-size: 1rem;
-}
-
-.medium-font{
-    font-size: 1.2rem;
-    line-height: 2;
-}
-
-.semi-big-font{
-    font-size: 1.5rem;
 }
 
 .review{
@@ -177,6 +151,33 @@ footer{
     padding: 30px 0;
 }
 
+/* fonts */
+.big-font{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.small-font{
+    font-size: 1rem;
+}
+
+.medium-font{
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+.semi-big-font{
+    font-size: 1.5rem;
+}
+
 .white{
     color: white;
+}
+
+.orange{
+    color: #FC8143;
+}
+
+.tomato{
+    color: #FE492E;
 }
